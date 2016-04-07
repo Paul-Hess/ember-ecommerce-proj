@@ -1,3 +1,6 @@
+{{#if session.isAuthenticated}}
+  hi you are logged in
+{{else}}
 {{#link-to 'index'}}Home{{/link-to}}
 <h1>{{perfume.name}}</h1>
 <p>${{perfume.price}}</p>
@@ -5,5 +8,7 @@
 <img src='{{perfume.image}}' alt="{{perfume.name}}">
 <h4>{{perfume.description}}</h4>
 <p>{{perfume.details}}</p>
+<p>rating: {{getAverage}}</p>
 
 {{new-comment perfume=perfume addComment="addComment" sendRating="sendRating"}}
+{{/if}}
