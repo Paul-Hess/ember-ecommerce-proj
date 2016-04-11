@@ -1,7 +1,6 @@
 # Wednes
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An exercise in Ember js. Epicodus 2016.
 
 ## Prerequisites
 
@@ -33,6 +32,11 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember test`
 * `ember test --server`
+* 
+
+##issues: 
+    user auth not configured quite properly, needs refactor.
+    computed property not written correctly, needs refactor.
 
 ### Building
 
